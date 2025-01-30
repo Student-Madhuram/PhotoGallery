@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+.container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+.container .heading h3{
+    font-weight: bolder;
+    font-size: 3em;
+    padding-bottom: 3px solid #222;
+}
+.container .heading h3 #span{
+    font-weight: 100;
+}
+.container .box{
+    margin-top: 20px;
+    flex-direction: row;
+    width: 32.5%;
+}
+.container .box .dream{
+    flex-direction: column;
+}
